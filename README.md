@@ -1,4 +1,9 @@
-# Distributed GPU Training Cluster (WSL + Tailscale + PyTorch)
+░█████╗░███╗░░░███╗███╗░░██╗██╗████████╗██████╗░░█████╗░██╗███╗░░██╗
+██╔══██╗████╗░████║████╗░██║██║╚══██╔══╝██╔══██╗██╔══██╗██║████╗░██║
+██║░░██║██╔████╔██║██╔██╗██║██║░░░██║░░░██████╔╝███████║██║██╔██╗██║
+██║░░██║██║╚██╔╝██║██║╚████║██║░░░██║░░░██╔══██╗██╔══██║██║██║╚████║
+╚█████╔╝██║░╚═╝░██║██║░╚███║██║░░░██║░░░██║░░██║██║░░██║██║██║░╚███║
+░╚════╝░╚═╝░░░░░╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝
 
 Google Colab gives you a single free GPU with session timeouts, usage limits, and no control over the underlying hardware. This project takes a different approach: instead of renting compute, it pools the idle GPUs/CPUs you already have across multiple personal machines into one distributed training cluster. There are no session limits, no queueing for availability, and no cost beyond the electricity bill — just your own laptops, networked together with Tailscale, doing real multi-node distributed deep learning.
  
