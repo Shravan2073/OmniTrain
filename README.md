@@ -36,13 +36,13 @@ distributed-training-cluster/
 
 Each machine should have:
 
-- Windows 10/11
-- WSL2 (Ubuntu recommended)
-- NVIDIA GPU (optional for CPU testing)
+- Windows 10/11 or WSL 
+- any Linux OS with good Conda support 
+- NVIDIA GPU (recommended)
 - Miniforge / Conda
 - Python 3.10+
 - Tailscale installed
-- Internet connection
+- Internet connection (Minimum 100 mbps to avoid bottleneck)
 
 ---
 
