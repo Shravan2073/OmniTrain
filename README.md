@@ -1,6 +1,11 @@
 # Distributed GPU Training Cluster (WSL + Tailscale + PyTorch)
 
-A lightweight distributed systems project that demonstrates **multi-node distributed deep learning** using multiple Windows laptops connected over **Tailscale**. Each machine runs **WSL (Ubuntu)** with a Conda environment and participates in distributed training using **PyTorch Distributed Data Parallel (DDP)**.
+Google Colab gives you a single free GPU with session timeouts, usage limits, and no control over the underlying hardware. This project takes a different approach: instead of renting compute, it pools the idle GPUs/CPUs you already have across multiple personal machines into one distributed training cluster. There are no session limits, no queueing for availability, and no cost beyond the electricity bill — just your own laptops, networked together with Tailscale, doing real multi-node distributed deep learning.
+ 
+This is a lightweight distributed systems project that demonstrates **multi-node distributed deep learning** using multiple Windows laptops connected over **Tailscale**. Each machine runs **WSL (Ubuntu)** with a Conda environment and participates in distributed training using **PyTorch Distributed Data Parallel (DDP)**.
+ 
+The goal of this project is to pool the computational resources of multiple machines and train a neural network collaboratively over a network.
+ 
 
 The goal of this project is to pool the computational resources of multiple machines and train a neural network collaboratively over a network.
 
